@@ -111,6 +111,10 @@ h2 {
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
+    background: url(/images/Vector.png) no-repeat;
+    background-position: 950px 400px;
+    background-size: 450px;
+
 }
 
 .obtention2 {
