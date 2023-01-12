@@ -1,0 +1,369 @@
+@font-face {
+    font-family: "Abyssinica SIL";
+    src: url("../front/Abyssinica/AbyssinicaSIL-Regular.tff");
+}
+
+body {
+    max-width: 1800px;
+    margin: 0px;
+}
+
+header {
+    line-height: 14px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+main {
+    width: 100%;
+}
+
+.logo {
+    margin: 10px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+
+}
+
+nav {
+    display: flex;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+}
+
+.menu li {
+    padding: 0px 10px;
+}
+
+.connexion {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+}
+
+.connexion a {
+    display: block;
+    background: #93BDC3;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    padding: 5px;
+    color: #FFFFFF;
+}
+
+.obtention1 {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    padding-inline-start: 20px
+}
+
+.obtention1 a {
+    display: block;
+    background: #06A3DA;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    padding: 5px;
+    color: #FFFFFF;
+}
+
+.line {
+    border-bottom: 1px solid #CBCBCB;
+}
+
+h1 {
+    width: 960px;
+    height: 309px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 82px;
+    line-height: 102px;
+    text-align: center;
+    margin-block-end: 0px;
+}
+
+h2 {
+    width: 1000px;
+    font-style: normal;
+    font-weight: 325;
+    line-height: 34px;
+    text-align: center;
+    margin-block-start: 0px;
+    font-size: 23px;
+}
+
+.titre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.obtention2 {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+
+}
+
+.obtention2 a {
+    display: block;
+    background: #06A3DA;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    padding: 10px 20px;
+    color: #FFFFFF;
+}
+
+
+.fleche {
+    margin-left: 10px;
+    font-style: 20px;
+    width: 15px;
+    height: 10px;
+}
+
+.rectangle1 {
+    width: 1000px;
+    height: 600px;
+    border: solid rgb(105 98 98 / 24%);
+    margin: 10px 0px 100px;
+    
+}
+
+#apropos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#apropos>h3{
+    margin-top: 0;
+}
+
+.rectangle2 {
+    width: 650px;
+    height: 329px;
+    border: solid rgb(105 98 98 / 24%);
+    margin: 10px 0px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.innovation {
+    display: flex;
+}
+
+.medecin {
+    height: 368px;
+    margin-left: -44px;
+}
+
+.rectangle2 p {
+    font-size: 18px;
+    width: 516px;
+}
+
+.rectangle2 h3 {
+    margin-top: 50px;
+}
+
+#avantages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#avantages>h3{
+    margin-top: 0;
+}
+
+.rectangle3 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.rectangle {
+    width: 200px;
+    margin-left: -100px;
+}
+
+.petitrectangle {
+    width: 200px;
+}
+
+.installation {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.installation1 {
+    width: 351px;
+    margin-left: 100px;
+}
+
+.point {
+    margin-bottom: 10px;
+}
+.rectangle4{
+    width:500px;
+    height: 850px;
+    border: solid rgb(141 132 132 / 60%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rectangle4 p{
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+.rectangle5{
+    width:500px;
+    height: 850px;
+    border: solid rgba(119, 211, 179, 0.2);
+    margin-left: 20px;
+    background-color: rgba(137, 251, 211, 0.2);
+}
+
+.rectangle5 p{
+    font-size: 40px;
+    margin-left: 20px;
+}
+.tarif{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.tarif h3{
+    text-align: center;
+    margin-top: 20px;
+}
+#prix{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#prix>h3 {
+    margin-top: 0;
+
+}
+
+.obtention3 {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+
+}
+
+.obtention3 a {
+    display: block;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    padding: 10px 20px;
+    color: #FFFFFF;
+    width: 280px;
+    margin-bottom: 30px;
+}
+
+.line1{
+    border-bottom: 1px solid #CBCBCB;
+    width:400px;
+    margin-bottom: 30px;
+}
+
+.description{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.descriptifperso{
+    line-height: 40px;
+}
+
+.rectangle6 {
+    width: 650px;
+    height: 175px;
+    border: solid rgb(105 98 98 / 24%);
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+#temoignage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+  
+}
+
+#temoignage h3{
+    margin-top: 0;
+}
+
+.photo{
+    margin-right: 10px;
+}
+
+.demandercompte{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+.rectangle7 {
+    width: 1000px;
+    height: 520px;
+    border: solid rgb(105 98 98 / 24%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.compte{
+    display: grid;
+}
+.compte1{
+    width: 800px;
+    padding: 10px;
+    margin-bottom: 51px;
+}
+
+
+
+
+
+
+
+
+footer{
+    line-height: 14px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
